@@ -14,11 +14,13 @@ export class HomePage extends BasePage
     async manageClick()
     {
         await this.click(this.manage);
+        console.log("Manage click perfromed")
     }
 
     async hoverOnManageCategories() 
     {
     await this.manageCategories.hover();
+    console.log("Manage Categories hover perfomed")
     }
 
     async manageCategoriesLink()

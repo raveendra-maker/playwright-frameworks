@@ -1,6 +1,5 @@
 import {test} from '@playwright/test';
 
-
 export class BasePage 
 { 
 
@@ -11,7 +10,7 @@ export class BasePage
 
         // waits , alert, fill, type, dropdown, handle multiple tabs , capture text and more methods can be added here.
 
-        async handleDropdown(selector, value)
+       async handleDropdown(selector, value)
         {
             await selector.selectOption(value);
 
